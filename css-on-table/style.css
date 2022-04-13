@@ -1,0 +1,28 @@
+*{
+    border-radius: 5px;
+}
+    
+
+ table{
+     background-color: coral;
+     text-transform: capitalize;
+     box-shadow: 13px 13px 13px 3px black;
+     text-align: center;
+    }
+    th{
+        background-color: rgb(179, 97, 255);
+       }
+       
+    td{
+        background-color: rgb(255, 0, 51);
+       }
+        
+    th:hover, td:hover{
+        color: white;
+        background-color: blue;
+       }
+     
+     
+
+     
+     

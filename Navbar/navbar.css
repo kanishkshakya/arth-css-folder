@@ -1,0 +1,68 @@
+
+.navbar{
+    background-color: rgb(1, 1, 141);
+    list-style: none;
+    padding: 1px;
+    margin: 1px;
+    overflow: hidden;
+    width: 99%;
+}
+ul{
+    height: 51px;
+}
+    
+ul li{
+    float: left;
+    list-style: none;
+}
+li a.active{
+
+    background-color: rgb(216, 88, 24);
+    color: #fff;
+    border-radius: 4px;
+    
+}
+li a.active:hover{
+    background-color: #f00;
+    border-radius: 4px;
+    
+
+   
+}
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 12px 10px;
+    font-size: x-large;
+    text-align: center;
+}
+a:hover:not(.active){
+    background-color: #f00;
+    border-radius: 4px;
+    
+}
+.drop-box{
+background-color: #c5c2c2;
+position: absolute;
+display: none;
+overflow: hidden;
+min-width:50px;
+}
+.drop-box a{
+     text-decoration: none;
+     color: black;
+     text-align: center;
+     display: block;
+     padding: 12px  10px;
+}
+
+.drop-box a:hover{
+    background:rgb(204, 59, 59);
+    color: #dfe3eb;
+}
+#drpdwnbtn:hover .drop-box{
+    display: block;
+    box-shadow: 0 12x 13px 0 rgba(0, 0, 0, 0.2) ;
+    border-radius: 3px;
+}

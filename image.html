@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image in css</title>
+	<style type="text/css">
+
+		body
+		{
+			
+			background-color: white;
+			height: 96vh;
+			color: white;
+			background: url("/img/bg1.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			z-index: -1;
+			
+		}
+
+		.navbar{
+			
+			display: block;
+			
+			text-align: center;
+			
+		}
+
+		
+		.navbar ul li{
+			list-style: none;
+			padding-top:5px ;
+			display: inline-block;
+			margin: 5px;
+		}
+		
+		.navbar ul li a{
+			text-decoration: none;
+			color: rgb(37, 247, 247);
+			font-size: 22px;
+		}
+		.navbar ul li a:hover{
+			background-color: rgb(26, 252, 203);
+			color: rgb(34, 20, 235);
+			cursor: pointer;
+			border-radius: 3px;
+			text-decoration: underline;
+
+		}
+
+		
+
+
+		#img1
+		{
+			border-radius: 15px;
+			height: 200px;
+			width: 25%;
+			border: 2px solid white;
+			padding: 5px;
+			margin-left : 40px;
+			/*box-shadow: 10px 13px 5px 12px #a2ffca;*/
+		}
+		#img2
+		{
+			margin-left : 40px;
+			height: 200px;
+			width: 25%;
+			border: 2px solid white;
+			padding: 5px;
+			border-radius: 12px;
+		}
+		.heading
+		{
+			color: rgb(255, 255, 255);
+			font-size: 80px;
+			text-align: center;
+			position: relative;
+			background: linear-gradient(to right, blue 30% ,violet 80%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+		h4{
+			
+			
+			font-size: x-large;
+			margin-left: 60%;
+			margin-top: -4%;
+				}
+		h2{
+			
+			text-align: center;
+			font-size: xx-large;
+			
+
+		}
+		.container{
+			width: auto;
+			text-align: center;
+			
+			
+
+		}
+		.about-us{
+			
+			display: inline-block;
+			width: 800px;
+			font-size: larger;
+			
+			
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<ul>
+			<li> <a href="https://www.artheducation.com/computer-courses/index">HOME</a></li>
+			<li> <a href="#"> COURSES</a></li>
+			<li> <a href="#"> SERVICES</a></li>
+			<li> <a href="#"> ABOUT US</a></li>
+		</ul>
+	</div>
+
+	<h1 class="heading">Arth Institute</h1>
+	<h4>Various type of computer Courses</h4>
+<img id="img1" src="/img/img4.jpg">
+
+<img id="img2" src="/img/img3.jpg">
+
+<img id="img1" src="/img/img2.jpg">
+
+<h2>About Us </h2>
+<div class="container">
+<p class="about-us">Arth is an ISO 9001:2015 Certified IT training institute which is also a NIELIT (Ministry of Electronics & Information Technology Government of India) fascilitation center and also an AUTHORIZED TESTING CENTER of MICROSOFT . We provide best computer training in software, hardware and multimedia fields. Our courses are specially designed and updated as per the current market needs as well as different student level which makes us a best it training institute in delhi.</p>
+</div>
+
+</body>
+</html>
